@@ -1,0 +1,54 @@
+<?php
+        $conn = mysqli_connect("localhost", "root", "", "ass2web")        
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASSESSMENT 2 WEB</title>
+</head>
+<body>
+<center><h1>BIODATA DIRI MAHASISWA</h1></center> 
+<form action=”about.php” method=”POST”>
+
+<table>
+<tr>
+<td></td>
+<td>Nama</td>
+<td>:</td>
+<td><input type=”text” name=”nama” size=”20″></td>
+</tr>
+
+<tr>
+<td></td>
+<td>NIM</td>
+<td>:</td>
+<td><input type=”number” name=”nim” size=”20″ ></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Kelas</td>
+<td>:</td>
+<td><input type=”text” name=”kelas” size=”20″ ></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Masukan Foto</td>
+<td>:</td>
+<td><input type=file name=file></td>
+<td></td>
+</tr>
+
+<tr> 
+<td>	
+<input value="Daftar" type="submit">
+</td>
+</tr>
+
+</body>
+</table>
+</form>
+</body>
+</html>
